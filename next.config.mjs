@@ -1,4 +1,23 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import createNextIntlPlugin from 'next-intl/plugin';
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  //   images: {
+  //     domains: ['www.google.com'],
+  //   },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'fansport.vn',
+        port: '',
+        // pathname: '/account123/**',
+      },
+    ],
+  },
+};
+
+export default withNextIntl(nextConfig);

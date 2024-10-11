@@ -1,0 +1,16 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "hello": "Hello"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+
+  "Blog": {
+    "hello": "test",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  }
+}

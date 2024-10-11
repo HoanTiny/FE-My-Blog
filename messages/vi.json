@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "title": "Xin chào!",
+    "hello": "Xin chào"
+  },
+  "LocaleSwitcher": {
+    "label": "Thay đổi ngôn ngữ",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Blog": {
+    "hello": "Test blog",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  }
+}
